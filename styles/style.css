@@ -1,3 +1,64 @@
+/* --- Destination Page Specific Styles --- */
+
+/* University Intro Section */
+.intro-section {
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    border-left: 6px solid #6366f1; /* Matches the hero gradient */
+    margin: 40px 0;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.intro-section h2 {
+    color: #1e293b;
+    margin-bottom: 15px;
+    font-size: 28px;
+}
+
+.intro-section p {
+    font-size: 1.1rem;
+    color: #4b5563;
+    line-height: 1.8;
+}
+
+/* Team Grid Layout */
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+    margin-bottom: 60px;
+}
+
+/* Member Card Enhancements (Building on your existing .card class) */
+.member-card {
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.member-card .member-role {
+    display: inline-block;
+    background: #e0f2fe;
+    color: #0369a1;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: bold;
+    margin-top: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.member-card h3 {
+    margin-top: 15px;
+    color: #1e293b;
+    font-size: 20px;
+}
+
+/* Utility for spacing */
+.mt-40 {
+    margin-top: 40px;
+}
 /* --- Gallery Specific Styles (Added by Member 3) --- */
 
 .gallery-grid {
